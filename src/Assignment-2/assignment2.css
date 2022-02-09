@@ -1,7 +1,112 @@
 /* Our CSS file. */
 
 
-.container, .content {
+/* .container, .content {
 width: 100%;
 height: 100%;
+} */
+*body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+    header{
+    height: 119px;
+    /* border: 2px solid red; */
+    background-color: beige;
+}
+.img-logo{
+    float: left;
+    width: 50%;
+
+}
+.img-logo img{
+    width: 16%;
+    /* float: left; */
+    margin-top: 24px;
+    margin-left: 17px;
+}
+
+form {
+    float: right;
+    width: 20%;
+}
+input[type="text" i]{
+    height: 20px;
+    margin-top: 50px;
+    /* border: 1px solid; */
+    /* color: black; */
+    border: 1px solid black;
+
+}
+.nav-links{
+    /* border: 2px solid green; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.nav-items li{
+    display: inline-block;
+    margin: 0 100px;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: white;
+}
+.left-side{
+    /* border: 3px solid royalblue; */
+    display: inline-block;
+    vertical-align: top;
+    background-color: seagreen;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    height: 60vh;
+}
+.left-ul{
+    list-style: none;
+    line-height: 2;
+    vertical-align: top;
+}
+section{
+    /* border: 5px solid red; */
+    width: 60%;
+    /* margin-left: 200px; */
+    /* vertical-align: top; */
+    display: inline-block;
+    /* padding-top: 50px; */
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+section img{
+    width: 30%;
+}
+.right-ul{
+    /* border: 3px solid green; */
+    width: 10%;
+    display: inline-block;
+    line-height: 2;
+    vertical-align: top;
+    margin-left: 267px;
+    list-style: none;
+    background-color: seagreen;
+    color: white;
+    text-transform: uppercase;
+    height: 60vh;
+}
+.right-ul li{
+    list-style: none;
+}
+.foot{
+    margin: 10px 70px;
+    /* border: 3px solid; */
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
