@@ -1,7 +1,160 @@
 /* Our CSS file. */
 
 
-.container, .content {
+/* .container, .content {
 width: 100%;
 height: 100%;
+} */
+.nav-bar{
+    padding: 10px 5px;
+    background: rgba(83, 133, 133, 0.726);
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+.nav-bar .logo-img{
+    float: left;
+}
+.logo-img img{
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.nav-bar .list-items{
+    float: right;
+}
+.nav-bar .list-item{
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 16px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+}
+a:hover{
+    border-bottom: 2px solid white;
+}
+.nav-bar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.center{
+    background: url(./images/back.jpg);
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,0.2));
+
+    
+}
+.center{
+    position: relative;
+}
+.center-1{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    color: black;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.img-logo-1 img{
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 60%;
+    margin:15px 0;
+}
+.btn{
+    padding: 10px 5px;
+    background: white;
+    color: blue;
+  
+}
+.last-center{
+    padding: 100px 0;
+    /* margin: 0 auto; */
+    background: rgb(197, 191, 191);
+}
+p{
+    font-weight: 700;
+}
+.sec-1{
+    float: left;
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.sec-2{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+  
+}
+.sec-3{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+  
+}
+.second-sec::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.ref{
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.img-1 img{
+    width: 200px;
+    border-radius: 50%;
+    margin: 5px 0;
+}
+.img-2 img{
+    width: 200px;
+    border-radius: 50%;
+}
+.img-3 img{
+    width: 200px;
+    border-radius: 50%;
+}
+.button{
+  border: 2px solid green;
+}
+.foot{
+    padding: 16px 5px;
+    background: rgba(83, 133, 133, 0.726); 
+}
+h3{
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul{
+    text-align: center;
 }
