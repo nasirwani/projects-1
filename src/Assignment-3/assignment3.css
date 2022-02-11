@@ -1,7 +1,38 @@
-/* Our CSS file. */
-
-
-.container, .content {
-width: 100%;
-height: 100%;
+.container1{
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.clearfix{
+    clear: both;
+}
+.container1{
+    padding: 100px;
+}
+.button-container1{
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+}
+.iframe-container1{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+input[type='button']{
+    background-color: black;
+    color: whitesmoke;
+}
+.container2{
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    padding: 100px;
+}
+.button-container2{
+    text-align: center;
+}
+.iframe-container2{
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
 }
